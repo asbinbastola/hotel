@@ -1,0 +1,61 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+a.relative.inline-block::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.125rem; /* 2px */
+    bottom: 0;
+    left: 0;
+    background-color: #F59E0B; /* Tailwind's yellow-500 */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  a.relative.inline-block:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+
+
+
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  a.relative.inline-block::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.125rem; /* 2px */
+    bottom: 0;
+    left: 0;
+    background-color: #F59E0B; /* Tailwind's yellow-500 */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  a.relative.inline-block:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
