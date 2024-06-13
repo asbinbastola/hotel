@@ -26,7 +26,7 @@ const RestaurantAndMenu = () => {
 
   return (
     <div className="relative bg-cover bg-center" style={{ backgroundImage: "url('./src/assets/img/dish3.jpg')" }}>
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 bg-black opacity-70"></div>
       <div className="relative container mx-auto px-4 py-12 text-white">
         <h2 className="text-4xl font-bold text-center mb-8">Our Restaurant Menu</h2>
         <p className="text-center mb-12">Discover our delicious menu items, carefully prepared with fresh ingredients to tantalize your taste buds.</p>
