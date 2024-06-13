@@ -10,8 +10,8 @@ import Event from './components/Event';
 import RestaurantAndMenu from './components/ResturantAndMenu';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Reservationtemp from './components/Reservationtemp';
-//import Reservation from './components/Reservation';
+//mport Reservationtemp from './components/Reservationtemp';
+import Reservation from './components/Reservation';
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
         <About />
       </section>
       <section id="reservation" className="mt-12">
-        <Reservationtemp/>
+        <Reservation/>
       </section>
      
       <section id="contact" className="mt-12">

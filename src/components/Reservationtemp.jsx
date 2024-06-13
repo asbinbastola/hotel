@@ -50,7 +50,7 @@ const Reservationtemp = () => {
             <textarea id="notes" className="border border-gray-300 p-2 rounded-md w-full" rows="4" placeholder="Notes"></textarea>
           </div>
           <div className="col-span-1 md:col-span-2 flex justify-center">
-            <button type="submit" className="bg-yellow-500 text-white py-2 px-4 rounded-md hover:bg-yellow-600 transition duration-300">Reserve Now</button>
+            <button type="submit" className="bg-red-500 text-white py-2 px-4 rounded-md hover:bg-purple-600 transition duration-300">Reserve Now</button>
           </div>
         </form>
       </div>

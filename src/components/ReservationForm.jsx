@@ -36,7 +36,7 @@ const ReservationForm = () => {
             </select>
           </div>
         </div>
-        <button className="bg-yellow-500 text-white py-2 px-4 rounded-md w-full hover:bg-yellow-600 transition duration-300">Check Availability</button>
+        <button className="bg-red-500 text-white py-2 px-4 rounded-md w-full hover:bg-purple-600 transition duration-300">Check Availability</button>
       </div>
     </div>
   );

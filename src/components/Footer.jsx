@@ -26,7 +26,7 @@ const Footer = () => {
           <h3 className="text-lg font-bold mb-4">Newsletter</h3>
           <form>
             <input type="email" placeholder="Email..." className="w-full p-2 mb-4 text-gray-900" />
-            <button className="bg-yellow-500 text-white py-2 px-4 w-full rounded-md hover:bg-yellow-600 transition duration-300">Sign Up</button>
+            <button className="bg-red-500 text-white py-2 px-4 w-full rounded-md hover:bg-purple-600 transition duration-300">Sign Up</button>
           </form>
         </div>
       </div>
