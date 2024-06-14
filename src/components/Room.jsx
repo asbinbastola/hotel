@@ -6,25 +6,25 @@ const rooms = [
     name: 'Junior Suite',
     price: '$100/Night',
     image: './src/assets/img/room2.jpg', // replace with actual image URL
-    beds: 3,
-    baths: 2,
+    beds: 2,
+    baths: 1,
     wifi: true,
-    rating: 5,
+    rating: 2,
     description: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.'
   },
   {
     name: 'Executive Suite',
-    price: '$100/Night',
+    price: '$150/Night',
     image: './src/assets/img/room1.jpg', // replace with actual image URL
-    beds: 3,
+    beds: 2,
     baths: 2,
     wifi: true,
-    rating: 5,
+    rating: 3,
     description: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.'
   },
   {
     name: 'Super Deluxe',
-    price: '$100/Night',
+    price: '$200/Night',
     image: './src/assets/img/room4.jpg', // replace with actual image URL
     beds: 3,
     baths: 2,
@@ -45,7 +45,7 @@ const Room = () => {
             <div className="p-6">
               <div className="flex justify-between items-center">
                 <h3 className="text-xl font-bold">{room.name}</h3>
-                <span className="bg-yellow-500 text-white px-2 py-1 rounded">{room.price}</span>
+                <span className="bg-green-500 text-white px-2 py-1 rounded">{room.price}</span>
               </div>
               <div className="flex items-center mt-2">
                 {[...Array(room.rating)].map((_, i) => (
@@ -61,8 +61,8 @@ const Room = () => {
               </div>
               <p className="text-gray-600 mt-4">{room.description}</p>
               <div className="mt-4 flex justify-between">
-                <button className="bg-yellow-500 text-white px-4 py-2 rounded">View Details</button>
-                <button className="bg-blue-600 text-white px-4 py-2 rounded">Book Now</button>
+                <button className="bg-red-500 text-white  hover:bg- hover:bg-purple-600  px-4 py-2 rounded">View Details</button>
+                <button className="bg-blue-600 text-white  hover:bg-purple-600 px-4 py-2 rounded">Book Now</button>
               </div>
             </div>
           </div>
