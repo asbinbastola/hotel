@@ -1,4 +1,5 @@
-// src/components/RoomList.jsx
+
+
 import React from 'react';
 
 const rooms = [

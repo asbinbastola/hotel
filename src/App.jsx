@@ -1,4 +1,4 @@
-// src/App.jsx
+
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -11,7 +11,7 @@ import RestaurantAndMenu from './components/ResturantAndMenu';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Reservationtemp from './components/Reservationtemp';
-//import Reservation from './components/Reservation';
+
 
 function App() {
   return (
